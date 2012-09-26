@@ -81,7 +81,7 @@ public class OfflineFileTransform {
 				recurse = true;
 				pkg = pkg.substring(0, pkg.length() - 2);
 			} else if (pkg.endsWith("*")) {
-				recurse = true;
+				recurse = false;
 				pkg = pkg.substring(0, pkg.length() - 1);
 			}
 			
